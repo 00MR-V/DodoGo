@@ -1,0 +1,1 @@
+ALTER TABLE "user" ADD COLUMN "prefs_completed" boolean DEFAULT false NOT NULL;
