@@ -19,7 +19,7 @@ export const user = pgTable("user", {
     prefsCompleted: boolean("prefs_completed").notNull().default(false),
 
     // --- Phone fields (new) ---
-    phoneE164: text("phone_e164").unique(),                     // e.g. +23012345678
+    phoneE164: text("phone_e164"),                     // e.g. +23012345678
     phoneCountry: char("phone_country", { length: 2 }),         // ISO-3166 alpha-2 (e.g. 'IN', 'US')
     phoneNational: varchar("phone_national", { length: 32 }),   // local/national number
     phoneVerified: boolean("phone_verified").notNull().default(false),
