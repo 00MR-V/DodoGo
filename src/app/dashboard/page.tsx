@@ -21,7 +21,7 @@ export default async function Dashboard() {
                     Ready to plan your next trip? Start below or check your recent activity.
                 </p>
 
-                <Link href="/another-page">
+                <Link href="https://chatbot-sigma-wheat-56.vercel.app/#">
                     <Button
                         size="lg"
                         className="px-8 py-6 text-lg font-medium shadow-lg hover:shadow-xl transition-all duration-200 rounded-2xl"
